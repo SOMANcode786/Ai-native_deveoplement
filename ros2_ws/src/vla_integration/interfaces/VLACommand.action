@@ -1,0 +1,17 @@
+# VLACommand.action
+# Action definition for Vision-Language-Action commands
+
+# Goal: Natural language command to be executed
+string natural_language_command
+
+---
+# Result: Execution result
+bool success
+string message
+string[] executed_actions
+
+---
+# Feedback: Execution feedback during command processing
+string current_action
+string status
+float32 progress

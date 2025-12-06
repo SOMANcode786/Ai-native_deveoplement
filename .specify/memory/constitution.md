@@ -1,55 +1,50 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+SYNC IMPACT REPORT
+Version change: N/A → 1.0.0 (Initial version)
+Added sections:
+- Accuracy principle: Verify all technical content with reliable sources
+- Clarity principle: Write for beginner-to-intermediate audience
+- Consistency principle: Maintain uniform tone, structure, and formatting
+- AI-Native Workflow principle: Follow Spec-Kit Plus reproducible process
+- Quality Standards principle: Simple, structured, instructive writing with examples; MDX/Docusaurus compatible formatting; Include diagrams or code examples where appropriate; Version control via GitHub; book must build successfully
+- Constraints section: Minimum 8 chapters (600–1200 words each); Output in Markdown/MDX; Examples must be runnable (JS, TS, Python preferred)
+- Success Criteria section: Book builds and deploys to GitHub Pages; Chapters consistent, accurate, and verifiable; Examples work as documented; Spec-Kit Plus reproducibility confirmed
+- Governance section: All contributions must align with these principles; Book must be verifiable and deployable; Changes require validation of build process
+
+Templates requiring updates:
+- ✅ plan-template.md: Constitution Check section will now reference these specific principles
+- ✅ spec-template.md: Requirements section should align with these principles
+- ✅ tasks-template.md: Task categorization reflects these principles
+- ✅ adr-template.md: Architecture decisions should align with these principles
+
+No follow-up TODOs - all placeholders have been replaced with concrete values.
+-->
+# AI/Spec-Driven Book using Docusaurus + GitHub Pages Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy
+Verify all technical content with reliable sources.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity
+Write for beginner-to-intermediate audience.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Consistency
+Maintain uniform tone, structure, and formatting.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### AI-Native Workflow
+Follow Spec-Kit Plus reproducible process.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Quality Standards
+Simple, structured, instructive writing with examples; MDX/Docusaurus compatible formatting; Include diagrams or code examples where appropriate; Version control via GitHub; book must build successfully.
 
-### [PRINCIPLE_6_NAME]
+## Constraints
+Minimum 8 chapters (600–1200 words each); Output in Markdown/MDX; Examples must be runnable (JS, TS, Python preferred).
 
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+Book builds and deploys to GitHub Pages; Chapters consistent, accurate, and verifiable; Examples work as documented; Spec-Kit Plus reproducibility confirmed.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+All contributions must align with these principles; Book must be verifiable and deployable; Changes require validation of build process.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06

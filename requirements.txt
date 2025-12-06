@@ -1,0 +1,25 @@
+# Core dependencies for VLA integration
+openai-whisper>=1.0.0
+torch>=2.0.0
+transformers>=4.21.0
+openai>=1.0.0
+anthropic>=0.3.0
+numpy>=1.21.0
+opencv-python>=4.6.0
+pyaudio>=0.2.11
+sounddevice>=0.4.6
+speech-recognition>=3.10.0
+rclpy>=3.0.0
+ros2-interfaces>=0.9.0
+
+# Additional dependencies for vision-language integration
+Pillow>=9.0.0
+scipy>=1.9.0
+matplotlib>=3.5.0
+requests>=2.28.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0

@@ -1,0 +1,9 @@
+# Request a plan for a natural language command
+string command_text
+string context  # Additional context for planning
+---
+# Return the planned action sequence
+bool success
+string message
+string[] action_sequence  # Sequence of actions to execute
+builtin_interfaces/Time planning_time

@@ -1,0 +1,9 @@
+# Execute a single action
+string action_type  # "move_to", "grasp", "pick", "place", etc.
+string parameters  # JSON string of action parameters
+builtin_interfaces/Time timeout
+---
+# Result of action execution
+bool success
+string message
+builtin_interfaces/Time execution_time

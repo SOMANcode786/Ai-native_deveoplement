@@ -1,0 +1,12 @@
+# VLAPrompt.srv
+# Service definition for sending prompts to the VLA system
+
+# Request: Natural language command and context
+string natural_language_command
+string context
+
+---
+# Response: Generated action sequence
+bool success
+string message
+string[] action_sequence

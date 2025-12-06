@@ -1,0 +1,16 @@
+# Goal: Execute a sequence of actions
+string[] action_sequence
+builtin_interfaces/Time timeout
+---
+# Result: Overall execution result
+bool success
+string message
+builtin_interfaces/Time total_execution_time
+int32 completed_actions
+int32 total_actions
+---
+# Feedback: Progress during execution
+int32 current_action_index
+string current_action
+string status
+builtin_interfaces/Time elapsed_time
